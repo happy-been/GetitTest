@@ -1,0 +1,63 @@
+
+body {
+  background-color: #f0f0f0; /* PC 화면일 때 흰색 배경 */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile-card h2 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.profile-card p {
+  color: gray;
+  line-height: 40px;
+}
+
+.profile-card {
+  width: 400px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 2px 2px #ccc;
+  font-size: 20px;
+  text-align: center;
+}
+
+.profile-card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.profile-card button:hover {
+  background: #0056b3;
+}
